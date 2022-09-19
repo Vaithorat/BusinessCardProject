@@ -1,0 +1,127 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  position: absolute;
+  width: 550px;
+height: 868px;
+left: 65px;
+top: 53px;
+background: #23252C;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+.main {
+  background-color: #1a1b21;
+  width: 317px;
+  height: 399px;
+  left: 116px;
+  top: 361px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+}
+.photo {
+  display: flex;
+  justify-content: center;
+  border-radius: 10px 10px 0px 0px;
+}
+.about,
+.interest {
+  padding-left: 36px;
+  padding-right: 34px;
+}
+.email,
+.linkedin {
+  /* border: 2px solid red; */
+  margin: 17px;
+  font-size: 14px;
+}
+.linkedin{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 9px 13px 9px 11px;
+  gap: 8px;
+  background: #5093E2;
+  box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+  border-radius: 6px;
+}
+.email{
+  display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 9px 13px 9px 11px;
+gap: 8px;
+background: #FFFFFF;
+border: 1px solid #D1D5DB;
+box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+border-radius: 6px;
+}
+.emailIMG{
+  background-color: red;
+}
+.emailBtn{
+  border: #FFFFFF;
+  background-color: #FFFFFF;
+}
+.buttons {
+  box-sizing: border-box;
+  display: flex;
+}
+.name {
+  padding-top: 21px;
+  padding-left: 70px;
+  padding-right: 70px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 30px;
+  text-align: center;
+}
+.job {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12.8px;
+  line-height: 15px;
+  text-align: center;
+  color: #f3bf99;
+}
+.website {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10.24px;
+  line-height: 150%;
+  text-align: center;
+  color: #f5f5f5;
+}
+.headAbout, .headInterest{
+font-weight: 700;
+font-size: 16px;
+line-height: 150%;
+color: #f5f5f5;
+}
+.pAbout, .iAbout{
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 10.24px;
+line-height: 150%;
+color: #DCDCDC;
+}
