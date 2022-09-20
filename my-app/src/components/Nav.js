@@ -4,7 +4,7 @@ export default function Nav (){
     return (
         <>
         <div className='photo'>
-            <img  src={Photo} width="317px" height="317px" alt="" />
+            <img className='me' src={Photo} width="317px" height="317px" alt="" />
         </div>
         </>
     )

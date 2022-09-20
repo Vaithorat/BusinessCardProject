@@ -1,4 +1,6 @@
 import React from "react";
+import Mail from './Icons/Icon.png'
+import LinkedIn from './Icons/Vector.png'
 export default function Main() {
   return (
     <div className="main">
@@ -8,30 +10,27 @@ export default function Main() {
       <div className="buttons">
         <div className="email">
           <img
-            className="emailIMG"
-            src="./Icons/Icon.png"
-            width="12.8px"
-            height="9.6px"
-            alt=""
-          />
+            className="emailIMG"src={Mail}width="12.8px"height="9.6px"alt=""/>
           <button className="emailBtn">Email</button>
         </div>
-        <img src="./Icons/Vector.png" alt="" />
-        <button className="linkedin">LinkedIn</button>
+        <div className="linkedin">
+        <img className = "LinkedImg"src={LinkedIn} alt="" />
+        <button className="linkedBtn">LinkedIn</button>
+
+        </div>
       </div>
       <div className="about">
         <div className="headAbout">About</div>
         <p className="pAbout">
           I am a frontend developer with a particular interest in making things
           simple and automating daily tasks. I try to keep up with security and
-          best practices, and am always looking for new things to learn.
+          back end, and am always looking for new things to learn.
         </p>
       </div>
       <div className="interest">
         <div className="headInterest">Interests</div>
         <p className="iAbout">
-          Food expert. Music scholar. Reader. Internet fanatic. Bacon buff.
-          Entrepreneur. Travel geek. Pop culture ninja. Coffee fanatic.
+          Music scholar. Avid Reader. Internet fanatic. Entrepreneur. Coding geek. Pop culture ninja. Coffee fanatic. Gamer in disguise.
         </p>
       </div> 
     </div>

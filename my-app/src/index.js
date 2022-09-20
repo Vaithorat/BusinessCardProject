@@ -6,16 +6,13 @@ import reportWebVitals from './reportWebVitals';
 import Nav from './components/Nav';
 import Main from './components/Main';
 import Footer from './components/Footer';
-// import images from './components/Footer';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    {/* <App /> */}
     <Nav/>
     <Main/>
-    {/* <images/> */}
-    {/* <Footer/> */}
+    <Footer/>
   </React.StrictMode>
 );
 
